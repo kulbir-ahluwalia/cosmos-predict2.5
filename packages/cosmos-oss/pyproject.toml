@@ -100,12 +100,12 @@ cu128_torch27 = [
   "natten==0.21.0",
   "transformer-engine==2.2.0",
   # Torch
-  "torch==2.12.0",
+  "torch==2.7.0",
   # Dependencies constrained by torch
   "torchvision",
   "triton",
   "xformers; platform_machine != 'aarch64'",
-  # Dependencies determined from 'uv pip install "torch==2.12.0" --index-url https://download.pytorch.org/whl/cu128'
+  # Dependencies determined from 'uv pip install "torch==2.7.0" --index-url https://download.pytorch.org/whl/cu128'
   # Issue: https://github.com/astral-sh/uv/issues/14237
   "nvidia-cublas-cu12==12.8.3.14",
   "nvidia-cuda-cupti-cu12==12.8.57",
@@ -130,12 +130,12 @@ cu130_torch29 = [
   "natten==0.21.0+cu130.torch29",
   "transformer-engine==2.8+cu130.torch29",
   # Torch
-  "torch==2.12.0",
+  "torch==2.9.1",
   # Dependencies constrained by torch
   "torchvision",
   "triton",
   "xformers==0.0.33+cu130.torch29",
-  # Dependencies determined from 'uv pip install "torch==2.12.0" --index-url https://download.pytorch.org/whl/cu130'
+  # Dependencies determined from 'uv pip install "torch==2.9.1" --index-url https://download.pytorch.org/whl/cu130'
   # Issue: https://github.com/astral-sh/uv/issues/14237
   "nvidia-cublas==13.0.0.19",
   "nvidia-cuda-cupti==13.0.48",
